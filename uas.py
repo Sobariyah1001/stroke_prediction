@@ -418,7 +418,7 @@ with implementation:
             ]])
         le = joblib.load("le.save")
 
-        if akurasi > skor_akurasi and akurasi:
+        if akurasi > skor_akurasi and akurasiii:
             model = joblib.load("nb.joblib")
 
         elif skor_akurasi > akurasi and akurasiii:
