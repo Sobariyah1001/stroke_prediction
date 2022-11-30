@@ -71,19 +71,6 @@ with data:
     st.write("Total datanya adalah 5110 dengan data training 80% (4088) dan data testing 20% (1022)")
 
     uploaded_files = st.file_uploader("Upload file CSV", accept_multiple_files=True)
-    @st.cache
-    def convert_df(df):
-        # IMPORTANT: Cache the conversion to prevent computation on every rerun
-        return df.to_csv().encode('utf-8')
-
-    csv = convert_df(healthcare-dataset-stroke-data)
-
-    st.download_button(
-        label="Download data as CSV",
-        data=csv,
-        file_name='healthcare-dataset-stroke-data.csv',
-        mime='text/csv',
-    )
     for uploaded_file in uploaded_files:
         df = pd.read_csv(uploaded_file)
         st.write("Nama File Anda = ", uploaded_file.name)
