@@ -5,20 +5,4 @@ scikit-learn
 image
 joblib
 seaborn
-preprocessing
-MinMaxScaler
-train_test_split
-KNeighborsClassifier
-array
-tree
-GaussianNB
-StandardScaler
-confusion_matrix, accuracy_score, recall_score, precision_score, f1_score
-DecisionTreeClassifier
-OrderedDict
-KNeighborsClassifier
-BaggingClassifier
-make_classification
-SVC
-altair
-StandardScaler
+
