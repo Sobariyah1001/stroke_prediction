@@ -1,4 +1,6 @@
 streamlit
+streamlit-aggrid==0.2.2-2
+click==8
 pandas==1.2.3
 numpy==1.20.1
 scikit-learn
